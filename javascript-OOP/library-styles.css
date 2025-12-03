@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: clamp(40px , 6vw , 90px);
+    
+   
+    
+}
+
+    
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+}
+#tick {
+    display: flex;
+    flex-direction: row;
+}
+.right-side{
+    border: 2px solid black ;
+}
+.book-card {
+    background-color: lightseagreen;
+    width: 160px;
+    height: 180px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.book-card p {
+    margin: 0;
+}
+#library {
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
